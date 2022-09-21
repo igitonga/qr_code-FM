@@ -13,18 +13,20 @@
     .attribution { font-size: 11px; text-align: center; margin-top: 4em;}
     .attribution a { color: hsl(228, 45%, 44%); }
     body{
+      min-height: 100vh;
       margin: 0;
-      font-style: 'san-serif';
+      background-color: hsl(212, 45%, 89%);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .wrapper{
-      background: rgb(234, 234, 245);
-      height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
     }
     .card{
-      width: 20%;
+      width: 40%;
       background: #fff;
       padding: 1.4em;
       border-radius: 10px;
@@ -41,17 +43,20 @@
     .text{
       color: rgba(83, 79, 79, 0.752);
     }
+    .footer{
+      border: 1px solid red;
+    }
   </style>
 </head>
 <body>
-  <div class="wrapper">
+  <main class="wrapper">
     <div class="card">
       <img src="./images/image-qr-code.png" alt="">
       <div class="text-cont">
-        <h3>Improve your front-end skills by building projects</h3>
+        <h1>Improve your front-end skills by building projects</h1>
         <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div> 
     </div>
-  </div>
+  </main>
 </body>
 </html>
