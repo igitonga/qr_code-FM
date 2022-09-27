@@ -6,7 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Link
 * Solution url -  [https://github.com/igitonga/qr_code-component-main](https://github.com/igitonga/qr_code-component-main)
-* Live url -[]()
+* Live url -[https://delightful-frangipane-b151ee.netlify.app/](https://delightful-frangipane-b151ee.netlify.app/)
 
 ## Built with
 * Semantic HTML5 markup
